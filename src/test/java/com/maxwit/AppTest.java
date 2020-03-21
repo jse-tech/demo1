@@ -12,6 +12,8 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
+        var ver = System.getProperty("java.version");
+        System.out.println(ver);
         Assert.assertTrue(true);
     }
 }
